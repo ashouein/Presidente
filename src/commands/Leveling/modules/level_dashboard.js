@@ -342,7 +342,7 @@ async function handleRoleRewardAdd(selectInteraction, rootInteraction, cfg, guil
         .setLabel('Level required (1–500)')
         .setStyle(TextInputStyle.Short)
         .setPlaceholder('10')
-        .setMaxLength(3)
+        .setMaxLength(10)
         .setMinLength(1)
         .setRequired(true);
 

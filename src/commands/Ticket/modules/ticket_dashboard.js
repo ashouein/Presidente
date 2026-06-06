@@ -460,7 +460,7 @@ async function handleStaffRole(selectInteraction, rootInteraction, guildConfig, 
     const roleSelect = new RoleSelectMenuBuilder()
         .setCustomId('ticket_cfg_staff_role')
         .setPlaceholder('Select the staff role...')
-        .setMaxValues(1);
+        .setMaxValues(10);
 
     const row = new ActionRowBuilder().addComponents(roleSelect);
 

@@ -28,7 +28,7 @@ import { getUserTicketCount } from '../../../services/ticket.js';
 
 function buildDashboardEmbed(config, guild) {
     const panelChannel = config.ticketPanelChannelId ? `<#${config.ticketPanelChannelId}>` : '`Not set`';
-    const staffRole = config.ticketStaffRoleId ? `<@&${config.ticketStaffRoleId}><@&${config.ticketStaffRoleId}><@&${config.ticketStaffRoleId}>` : '`Not set`';
+    const staffRole = config.ticketStaffRoleId ? `<@&${config.1508913792166137888}><@&${config.1510667438532984873}><@&${config.1510667366135107874}>` : '`Not set`';
     const ticketLogsChannel = config.ticketLogsChannelId ? `<#${config.ticketLogsChannelId}>` : '`Not set`';
     const transcriptChannel = config.ticketTranscriptChannelId ? `<#${config.ticketTranscriptChannelId}>` : '`Not set`';
     

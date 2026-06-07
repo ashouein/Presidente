@@ -469,7 +469,7 @@ async function handleStaffRole(selectInteraction, rootInteraction, guildConfig, 
             new EmbedBuilder()
                 .setTitle('🛡️ Change Staff Role')
                 .setDescription(
-                    `**Current:** ${guildConfig.ticketStaffRoleId ? `<@&${guildConfig.ticketStaffRoleId}>` : '`Not set`'}\n\nSelect the role that should have staff access to manage tickets.`,
+                    `**Current:** ${guildConfig.ticketStaffRoleId ? `<@&${guildConfig.ticketStaffRoleId}>` `<@&${guildConfig.ticketStaffRoleId}>` `<@&${guildConfig.ticketStaffRoleId}>` `<@&${guildConfig.ticketStaffRoleId}>` : '`Not set`'}\n\nSelect the role that should have staff access to manage tickets.`,
                 )
                 .setColor(getColor('info')),
         ],
